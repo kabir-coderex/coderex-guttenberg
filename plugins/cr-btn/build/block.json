@@ -1,0 +1,29 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "cr-btn/cr-btn",
+  "version": "0.1.0",
+  "title": "Button CodeRex",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Button of Coderex",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "cr-btn",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "attributes": {
+    "buttonText": {
+      "type": "string",
+      "default": null
+    },
+    "buttonLink": {
+      "type": "string",
+      "default": "#"
+    }
+  }
+}

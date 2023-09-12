@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "benefit-section/benefit-section",
+	"version": "0.1.0",
+	"title": "CodeRex Benefit Section",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "CodeRex Benefit Section Of Home Page",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "benefit-section",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js",
+	"attributes": {
+		"heading":{
+			"type":"string",
+			"default":null
+		},
+		"overlyaImage":{
+			"type":"string",
+			"default":null
+		},
+		"singlebenifit":{
+			"type":"array",
+			"default":[
+				{
+					"icon":"", "title":"", "description":""
+				}
+			]
+		},
+		"buttonText":{
+			"type":"string",
+			"default":"Click Me"
+		},
+		"buttonLink":{
+			"type":"string",
+			"default":"#"
+		}
+	}
+}

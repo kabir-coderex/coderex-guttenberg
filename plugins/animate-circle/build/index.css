@@ -1,0 +1,151 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.coderex-shape .circle-wrapper {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #7d86b1;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 225px;
+  margin-top: -124px;
+  animation: circle-spin 30s linear infinite;
+}
+
+.coderex-shape .circle-wrapper .sml-circle {
+  color: #fff;
+  width: 50%;
+  display: block;
+  height: 1px;
+  position: absolute;
+}
+
+.coderex-shape .circle-wrapper .sml-circle i,
+.coderex-shape .circle-wrapper .sml-circle span {
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  border-radius: 100%;
+  right: -25px;
+  position: absolute;
+  top: -25px;
+}
+
+.coderex-shape .circle-wrapper .sml1 {
+  top: 50%;
+  left: 50%;
+  margin-top: -1px;
+  transform: rotate(120deg);
+  transform-origin: left;
+}
+
+.coderex-shape .circle-wrapper .sml1 i,
+.coderex-shape .circle-wrapper .sml1 span {
+  animation: circle-spin1 30s linear reverse infinite;
+}
+
+.coderex-shape .circle-wrapper .sml2 {
+  left: 50%;
+  top: 50%;
+  transform: rotate(240deg);
+  transform-origin: left;
+  margin-top: -1px;
+}
+
+.coderex-shape .circle-wrapper .sml2 i,
+.coderex-shape .circle-wrapper .sml2 span {
+  animation: circle-spin-f 30s linear reverse infinite;
+}
+
+.coderex-shape .circle-wrapper .sml3 {
+  left: 50%;
+  top: 50%;
+  transform: rotate(360deg);
+  transform-origin: left;
+  margin-top: -1px;
+}
+
+.coderex-shape .circle-wrapper .sml3 i,
+.coderex-shape .circle-wrapper .sml3 span {
+  animation: circle-spin 30s linear reverse infinite;
+}
+
+@keyframes circle-spin1 {
+  0% {
+    transform: rotate(240deg);
+  }
+  100% {
+    transform: rotate(600deg);
+  }
+}
+@keyframes circle-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes circle-spin-f {
+  0% {
+    transform: rotate(120deg);
+  }
+  100% {
+    transform: rotate(480deg);
+  }
+}
+@media (max-width: 1700px) {
+  .coderex-shape {
+    max-width: 730px;
+    width: 100%;
+  }
+  .coderex-shape .circle-wrapper {
+    width: 280px;
+    height: 280px;
+    left: 188px;
+    margin-top: -116px;
+  }
+}
+@media (min-width: 1922px) {
+  .coderex-shape-wrapper {
+    max-width: 1920px;
+    width: 100%;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    height: 100%;
+    z-index: 0;
+  }
+}
+@media (max-width: 1500px) {
+  .coderex-shape {
+    max-width: 640px;
+  }
+  .coderex-shape .circle-wrapper {
+    width: 230px;
+    height: 230px;
+    left: 172px;
+    margin-top: -93px;
+  }
+}
+@media (max-width: 1300px) {
+  .coderex-shape {
+    max-width: 580px;
+  }
+  .coderex-shape .circle-wrapper {
+    width: 220px;
+    height: 220px;
+    left: 147px;
+    margin-top: -90px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map*/

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "animate-circle/animate-circle",
+  "version": "0.1.0",
+  "title": "Animate circle",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "animate-circle",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "attributes": {
+    "img1": {
+      "type": "string",
+      "default": null
+    },
+    "img2": {
+      "type": "string",
+      "default": null
+    },
+    "img3": {
+      "type": "string",
+      "default": null
+    }
+  }
+}

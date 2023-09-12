@@ -1,0 +1,31 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-testimonial-section-testimonial-section {
+	border: 1px dotted #f00;
+	text-align: center;
+	
+}
+.overlay{
+	width: 500px;
+	height: 300px;
+	background-color: #f3f7ff;
+	position: relative;
+	top:70px;
+	right: 200px;
+	z-index: -5;
+}
+
+.video-container{
+	display: flex;
+	align-items: center;
+	gap:50px;
+	margin-left: 200px;
+}
+video{
+	width: 483px;
+    height: 272px;
+}

@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "testimonial-section/testimonial-section",
+	"version": "0.1.0",
+	"title": "Testimonial Section",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Testimonial Section",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "testimonial-section",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js",
+	"attributes": {
+		"headings": {
+			"type":"string",
+			"default":null
+		},
+		"video1":{
+			"type":"string",
+			"default":null
+		},
+		"video2":{
+			"type":"string",
+			"default":null
+		},
+		"poster1":{
+			"type":"string",
+			"default":null
+		},
+		"poster2":{
+			"type":"string",
+			"default":null
+		}
+
+	}
+}
