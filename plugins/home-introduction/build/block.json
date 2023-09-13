@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "home-introduction/home-introduction",
+  "version": "0.1.0",
+  "title": "Introduction Home",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Home Introduction",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "home-introduction",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "attributes": {
+    "buttonText": {
+      "type": "string",
+      "default": "Click Me"
+    },
+    "buttonLink": {
+      "type": "string",
+      "default": "#"
+    },
+    "image": {
+      "type": "string",
+      "default": null
+    },
+    "heading": {
+      "type": "string",
+      "default": "This is Heading"
+    },
+    "subHeading": {
+      "type": "string",
+      "default": "This is Sub Heading"
+    }
+  }
+}

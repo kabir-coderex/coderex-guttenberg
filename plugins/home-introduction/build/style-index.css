@@ -1,0 +1,235 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.cr-hire {
+  background: #fff;
+}
+
+.cr-hire .hire-content {
+  max-width: 58%;
+  margin-left: 55%;
+  min-height: 790px;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
+
+.cr-hire .hire-content h2 {
+  margin-bottom: 30px;
+}
+
+.cr-hire .hire-content .description {
+  margin-bottom: 45px;
+  font-size: 26px;
+  line-height: 46px;
+  letter-spacing: 1px;
+  text-align: justify;
+  color: #23252d;
+}
+
+.cr-hire .hire-content h2,
+.cr-hire .hire-content p,
+.cr-hire .hire-content .cr-btn-default {
+  transform: translateY(0px);
+}
+
+.cr-btn-default {
+  display: inline-block;
+  height: 60px;
+  line-height: 62px;
+  padding: 0px 50px;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 50px;
+  font-weight: 700;
+  color: #00b4ff;
+  font-family: Circular Std Bold;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.svg-btn-effect {
+  position: relative;
+  display: inline-block;
+}
+
+.svg-btn-effect svg {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.svg-btn-effect svg rect {
+  fill: none;
+  stroke: #00b4ff;
+  stroke-dasharray: 353, 0;
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  transition: all 1s ease;
+}
+
+.svg-btn-effect:hover svg rect {
+  stroke-dasharray: 154, 537;
+  stroke-dashoffset: 420;
+}
+
+@media (min-width: 1922px) {
+  .cr-hire .hire-illustration-wrapper {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    height: 100%;
+    width: 100%;
+    max-width: 1920px;
+    transform: translateX(50%);
+  }
+}
+@media (max-width: 1700px) {
+  .cr-hire .hire-illustration {
+    max-width: 680px;
+    width: 100%;
+    left: -50px;
+  }
+  .cr-hire .hire-content {
+    max-width: 50%;
+    min-height: 640px;
+  }
+}
+@media (max-width: 1500px) {
+  .cr-hire .hire-illustration {
+    max-width: 640px;
+  }
+  .cr-hire .hire-content {
+    min-height: 603px;
+  }
+}
+@media (max-width: 1300px) {
+  .cr-hire .hire-illustration {
+    max-width: 590px;
+  }
+  .cr-hire .hire-content {
+    min-height: 556px;
+    margin-top: 100px;
+    margin-bottom: 28px;
+  }
+}
+@media (max-width: 1199px) {
+  .cr-hire .hire-illustration {
+    max-width: 490px;
+  }
+  .cr-hire .hire-content {
+    max-width: 52%;
+    min-height: 462px;
+  }
+}
+@media (max-width: 991px) {
+  .cr-hire {
+    padding-top: 100px;
+    padding-bottom: 35px;
+  }
+  .cr-hire .hire-illustration {
+    position: relative;
+    top: inherit;
+    left: inherit;
+    display: block;
+    margin: 0 auto 60px;
+    padding: 0 15px;
+    transform: inherit;
+  }
+  .cr-hire .hire-content {
+    max-width: 100%;
+    text-align: center;
+    min-height: auto;
+    margin: 0;
+  }
+  .cr-hire .hire-content .cr-btn-default {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 767px) {
+  .cr-hire {
+    padding-top: 60px;
+  }
+}
+@media (max-width: 575px) {
+  .cr-hire .hire-illustration {
+    max-width: 300px;
+  }
+}
+.hire-illustration {
+  position: absolute;
+  top: 150%;
+  left: -100px;
+  transform: translateY(-50%);
+}
+
+.cr-hire .hire-content .description p {
+  font-size: 26px;
+  line-height: 46px;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+@media (max-width: 1700px) {
+  .hire-illustration {
+    max-width: 680px;
+    width: 100%;
+    left: -50px;
+  }
+}
+@media (max-width: 1500px) {
+  .hire-illustration {
+    max-width: 640px;
+  }
+}
+@media (max-width: 1300px) {
+  .hire-illustration {
+    max-width: 590px;
+  }
+}
+@media (max-width: 1199px) {
+  .hire-illustration {
+    max-width: 490px;
+  }
+  .cr-hire .hire-content .description p {
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: normal;
+  }
+}
+@media (max-width: 991px) {
+  .hire-illustration {
+    position: relative;
+    top: inherit;
+    left: inherit;
+    display: block;
+    margin: 0 auto 60px;
+    padding: 0 15px;
+    transform: inherit;
+  }
+  .cr-hire .hire-content .description p {
+    text-align: center;
+  }
+}
+@media (max-width: 575px) {
+  .hire-illustration {
+    max-width: 300px;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/
